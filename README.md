@@ -9,8 +9,7 @@ Example of a web project using Spring Boot on Azure.
 ---
 
 ## ⚙ Settings
-  Have a microsoft azure [account](https://azure.microsoft.com/pt-br/free/) and set up following the [setup steps](https://docs.microsoft.com/en-us/azure/developer/java/spring-framework/configure-spring-data-mongodb-with-cosmos-db).
-  Another [video](https://youtu.be/rSWbDk1yAME) tutorial.
+  Have a microsoft azure [account](https://azure.microsoft.com/pt-br/free/) and set up following the [steps](https://docs.microsoft.com/en-us/azure/developer/java/spring-framework/configure-spring-data-mongodb-with-cosmos-db) and watch the [video](https://youtu.be/rSWbDk1yAME) tutorial.
 
 ---
 
