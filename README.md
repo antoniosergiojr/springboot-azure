@@ -43,7 +43,7 @@ Example of a web project using Spring Boot on Azure.
     mvn azure-webapp:config
     -Please choose which part to config [Application]
     -Define value for appname [springboot-1613]
-    -Define value for resorceGroup [springboot-1613-rg]: azure-springboot
+    -Define value for resourceGroup [springboot-1613-rg]: azure-springboot
     -Define value for region [westeurope]: central-us
     
     mvn clean package
