@@ -34,6 +34,17 @@ Example of a web project using Spring Boot on Azure.
     cd springboot-azure
 
     # Running web project
+    mvn azure-webapp:config
+    -Define value for OS [Linux]
+    -Define value for pricingTier [P1v2]
+    -Define value for javaVersion [Java 11]
+    
+    mvn azure-webapp:config
+    -Please choose which part to config [Application]
+    -Define value for appname [springboot-1613]
+    -Define value for resorceGroup [springboot-1613-rg]: azure-springboot
+    -Define value for region [westeurope]: central-us
+    
     run application and then access: 
     http://localhost:8080/users
     http://localhost:8080/users/webflux
