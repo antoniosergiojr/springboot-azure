@@ -16,8 +16,9 @@ Example of a web project using Spring Boot on Azure.
 ## 💻 Technologies
     - Java
     - Spring Boot
+    - Maven
     - WebFlux (working reactively in spring and Netty embedded server)
-    - Microsoft Azure (CosmosDB with the MongoDB API)
+    - Microsoft Azure (CosmosDB with the MongoDB API)    
 ---
 
 ## 🚀 How to run
@@ -44,6 +45,9 @@ Example of a web project using Spring Boot on Azure.
     -Define value for appname [springboot-1613]
     -Define value for resorceGroup [springboot-1613-rg]: azure-springboot
     -Define value for region [westeurope]: central-us
+    
+    mvn clean package
+    mvn azure-webapp:deploy
     
     run application and then access: 
     http://localhost:8080/users
